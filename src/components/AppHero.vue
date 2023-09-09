@@ -15,7 +15,7 @@ const mobileNav = ref(false);
         <a href="#" class="flex-center">
           <img
             class="w-14 md:w-16"
-            src="../assets/logo.png.crdownload"
+            src="../assets/logo.png"
             alt="logo.png"
           />
         </a>
