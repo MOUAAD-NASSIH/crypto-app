@@ -8,7 +8,7 @@ const mobileNav = ref(false);
 </script>
 
 <template>
-  <header class="h-screen">
+  <header class="h-[900px] sm:h-[770px] md:h-[700px] lg:h-[780px] xl:h-screen">
     <navk
       class="relative container flex items-center justify-between max-sm:px-2 md:max-xl:px-4 py-2 md:py-4"
     >
@@ -38,7 +38,7 @@ const mobileNav = ref(false);
         <Transition name="mobile-nav">
           <div
             v-show="mobileNav"
-            class="bg-gray-400 fixed top-0 left-0 h-screen w-full"
+            class="bg-gray-400 fixed top-0 left-0 h-screen w-full z-50"
           >
             <div class="relative flex flex-col h-screen w-full">
               <Close
@@ -118,7 +118,6 @@ const mobileNav = ref(false);
       <div
         class="absolute transform scale-95 top-6 left-0 w-full h-full border-2 border-gray-300 bg-white rounded-3xl"
       ></div>
-      <!-- h-fit -->
       <div
         class="absolute top-12 left-0 w-full h-fit border-2 border-black bg-white rounded-3xl p-4 sm:p-6 md:p-7 lg:p-8 xl:p-10 flex flex-col-reverse items-center gap-8 sm:flex-row sm:justify-between lg:justify-around"
       >
