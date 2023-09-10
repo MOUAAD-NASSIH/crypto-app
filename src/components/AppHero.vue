@@ -8,7 +8,7 @@ const mobileNav = ref(false);
 </script>
 
 <template>
-  <header class="h-[900px] sm:h-[770px] md:h-[700px] lg:h-[780px] xl:h-screen">
+  <header class="h-[900px] sm:h-[770px] md:h-[700px] lg:h-[780px] xl:h-[900px]">
     <navk
       class="relative container flex items-center justify-between max-sm:px-2 md:max-xl:px-4 py-2 md:py-4"
     >
