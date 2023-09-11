@@ -137,7 +137,7 @@ const mobileNav = ref(false);
             Sign up and get started today.
           </p>
           <button class="flex items-center gap-4">
-            <TopRightArrowButton />
+            <TopRightArrowButton theme="black" />
             <span class="font-semibold text-lg lg:text-xl"
               >Get started now</span
             >

@@ -1,6 +1,13 @@
+<script setup>
+const props = defineProps({
+  color: String,
+});
+</script>
+
 <template>
   <svg
-    class="w-5 lg:w-6 text-black fill-current"
+    :class="props.color"
+    class="w-5 lg:w-6 fill-current"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
   >
