@@ -79,7 +79,7 @@ const mobileNav = ref(false);
       class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 py-10 max-sm:px-2 md:max-lg:px-5 lg:max-xl:px-5"
     >
       <h1
-        class="text-3xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-7xl space-y-2 md:space-y-6 font-semibold md:font-bold lg:col-span-2 xl:col-span-4 flex flex-col items-center justify-center -ml-5 sm:-ml-8 lg:-ml-10 xl:-ml-18"
+        class="text-4xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-7xl space-y-2 md:space-y-6 font-semibold md:font-bold lg:col-span-2 xl:col-span-4 flex flex-col items-center justify-center -ml-5 sm:-ml-8 lg:-ml-10 xl:-ml-18"
       >
         <span>The best lightning</span>
         <span class="ml-10 sm:ml-16 lg:ml-20 xl:ml-36 inline-block">
@@ -111,7 +111,7 @@ const mobileNav = ref(false);
       </div>
     </div>
 
-    <div class="container relative py-10">
+    <div class="container relative py-10 w-[90%] md:w-full flex justify-center">
       <div
         class="absolute transform scale-90 top-0 left-0 w-full h-full border-2 border-gray-200 bg-white rounded-3xl"
       ></div>
@@ -119,7 +119,7 @@ const mobileNav = ref(false);
         class="absolute transform scale-95 top-6 left-0 w-full h-full border-2 border-gray-300 bg-white rounded-3xl"
       ></div>
       <div
-        class="absolute top-12 left-0 w-full h-fit border-2 border-black bg-white rounded-3xl p-4 sm:p-6 md:p-7 lg:p-8 xl:p-10 flex flex-col-reverse items-center gap-8 sm:flex-row sm:justify-between lg:justify-around"
+        class="absolute top-12 left-0 w-full border-2 border-black bg-white rounded-3xl p-4 sm:p-6 md:p-7 lg:p-8 xl:p-10 flex flex-col-reverse items-center gap-8 sm:flex-row sm:justify-between lg:justify-around"
       >
         <div
           class="flex flex-col items-center sm:items-start gap-2 sm:gap-4 md:gap-6 lg:gap-8"

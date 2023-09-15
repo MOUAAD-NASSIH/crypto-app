@@ -12,3 +12,7 @@ body {
 .flex-center {
   @apply flex items-center justify-center;
 }
+
+::selection {
+  @apply bg-indigo-400 text-[#fdfdfd];
+}
