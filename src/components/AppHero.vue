@@ -9,7 +9,7 @@ const mobileNav = ref(false);
 
 <template>
   <header class="h-[900px] sm:h-[770px] md:h-[700px] lg:h-[780px] xl:h-[900px]">
-    <navk
+    <nav
       class="relative container flex items-center justify-between max-sm:px-2 md:max-xl:px-4 py-2 md:py-4"
     >
       <div class="flex items-center gap-10 lg:gap-16">
@@ -73,13 +73,13 @@ const mobileNav = ref(false);
           </div>
         </Transition>
       </div>
-    </navk>
+    </nav>
 
     <div
       class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 py-10 max-sm:px-2 md:max-lg:px-5 lg:max-xl:px-5"
     >
       <h1
-        class="text-4xl sm:text-5xl md:text-4xl lg:text-5xl xl:text-7xl space-y-2 md:space-y-6 font-semibold md:font-bold lg:col-span-2 xl:col-span-4 flex flex-col items-center justify-center -ml-5 sm:-ml-8 lg:-ml-10 xl:-ml-18"
+        class="text-4xl sm:text-5xl md:text-[2.30rem] lg:text-6xl xl:text-7xl space-y-2 md:space-y-6 font-semibold md:font-bold lg:col-span-2 xl:col-span-4 flex flex-col items-center justify-center"
       >
         <span>The best lightning</span>
         <span class="ml-10 sm:ml-16 lg:ml-20 xl:ml-36 inline-block">
